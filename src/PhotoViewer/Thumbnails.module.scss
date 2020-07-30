@@ -1,0 +1,17 @@
+.thumbnailList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background: #D0C4DF;
+    padding: 30px 0;
+    justify-content: center;
+    .thumbnailItem {
+        min-width: 250px;
+        max-width: 250px;
+        margin: 10px;
+        .thumbnailImg {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.intro {
+    background: #EF476F;
+    font-family: 'Lobster', cursive;
+    color: #FFD166;
+    h1 {
+        text-align: center;
+    }
+    .selectedPhotoContainer {
+        display: flex;
+        justify-content: center;
+        background: #06D6A0;
+    }
+
+}

@@ -1,15 +1,14 @@
 // import React
 import React from "react";
+import * as styles from "./PhotoViewer.module.scss";
+
 
 // declare new function
-function PhotoViewer() {
+export function PhotoViewer(props) {
     return (
         // return JSX
-        <div>
-            Hello World!
+        <div className={styles.selectedPhotoContainer}>
+            <img src={props.imageUrl}/>
         </div>
     );
 }
-
-// export function so that it can be called elsewhere
-export {PhotoViewer};
